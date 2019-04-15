@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,50 +15,58 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="&quot;movie_theater.png&quot;" highlightedImage="&quot;movie_theater.png&quot;" translatesAutoresizingMaskIntoConstraints="NO" id="T7f-bY-xR5">
-                                <rect key="frame" x="-6" y="652" width="427" height="244"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="&quot;movie_theater.png&quot;" highlightedImage="&quot;movie_theater.png&quot;" translatesAutoresizingMaskIntoConstraints="NO" id="T7f-bY-xR5">
+                                <rect key="frame" x="-96" y="658" width="568" height="215"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yff-Gy-a5g">
-                                <rect key="frame" x="0.0" y="543" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="vNW-NR-rdk">
-                                        <rect key="frame" x="197" y="8" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </activityIndicatorView>
-                                </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTC-Ex-97s">
-                                <rect key="frame" x="59" y="376" width="297" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTC-Ex-97s">
+                                <rect key="frame" x="0.0" y="144" width="375" height="102"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="101"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="movies      -     theaters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPi-Vl-8u7">
-                                <rect key="frame" x="45" y="44" width="325" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="movies     -    theaters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPi-Vl-8u7">
+                                <rect key="frame" x="0.0" y="69" width="385" height="25"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="27"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="vNW-NR-rdk">
+                                <rect key="frame" x="177" y="396" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="ZPi-Vl-8u7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="3v8-cg-mbL"/>
+                            <constraint firstItem="ZPi-Vl-8u7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6XD-Ot-U6D"/>
+                            <constraint firstItem="MTC-Ex-97s" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AsY-bU-1sc"/>
+                            <constraint firstAttribute="trailing" secondItem="ZPi-Vl-8u7" secondAttribute="trailing" id="GMK-Kk-h98"/>
+                            <constraint firstItem="T7f-bY-xR5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GTy-sV-gpq"/>
+                            <constraint firstItem="ZPi-Vl-8u7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gzn-aT-ylO"/>
+                            <constraint firstItem="ZPi-Vl-8u7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="Ke9-To-Bri"/>
+                            <constraint firstItem="MTC-Ex-97s" firstAttribute="top" secondItem="ZPi-Vl-8u7" secondAttribute="bottom" constant="50" id="Pqq-zB-MVx"/>
+                            <constraint firstItem="MTC-Ex-97s" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Qzj-93-NZ6"/>
+                            <constraint firstItem="MTC-Ex-97s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uy8-v9-JLv"/>
+                            <constraint firstItem="ZPi-Vl-8u7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="cNc-MI-fz4"/>
+                            <constraint firstItem="vNW-NR-rdk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ggZ-dy-1Hm"/>
+                            <constraint firstItem="vNW-NR-rdk" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="l2P-6s-hyr"/>
+                            <constraint firstItem="MTC-Ex-97s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="sLK-T6-D5S"/>
+                            <constraint firstAttribute="trailing" secondItem="T7f-bY-xR5" secondAttribute="trailing" constant="-55" id="sc9-eg-Jpn"/>
+                            <constraint firstAttribute="bottom" secondItem="T7f-bY-xR5" secondAttribute="bottom" constant="-61" id="vF3-h4-Vvg"/>
+                            <constraint firstItem="T7f-bY-xR5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-55" id="x2s-Lk-lyZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
         </scene>
     </scenes>
     <resources>
-        <image name="&quot;movie_theater.png&quot;" width="485" height="276"/>
+        <image name="&quot;movie_theater.png&quot;" width="323.33334350585938" height="184"/>
     </resources>
 </document>
