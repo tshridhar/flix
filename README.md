@@ -1,11 +1,10 @@
 # Flix
 
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flix is an application that allows users to browse movies currently playing in theaters, pulling data from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ---
 
 ## Flix Part 1
-
 
 
 #### REQUIRED (10pts)
@@ -17,11 +16,18 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (2pt) User can view the app on various device sizes and orientations.
 - [x] (1pt) Run your app on a real device.
 
-#### AutoLayout + Personal Device (iPad)
-<img src="https://im.ezgif.com/tmp/ezgif-1-4d6b6c1efb7e.gif" width=300><br>
 
-#### Basic Demonstration
-<img src="http://g.recordit.co/IexraAVQOo.gif" width=200><br>
+#### Autolayout + Basic Function Demonstration
+<img src="http://g.recordit.co/eQnkPp1tHQ.gif" width=200><br>
+
+#### AutoLayout + Personal Device (iPad) *
+<img src="https://im.ezgif.com/tmp/ezgif-1-4d6b6c1efb7e.gif" width=300><br>
+* This version had an spacing error detailed in notes below.
 
 ### Notes
-Still need to fix the spacing of the synopsis text - currently bottom left, should be top left.
+04/06/19 Completed basic requirements.
+04/10/19 Attempted autolayout, added a far more eye pleasing loading screen.
+04/11/19 Changed color scheme from white / black to black / white (black background).
+04/12/19 Finished autolayout partially on loading screen.
+04/14/19 Finished autolayout throughout the application. One spacing error remains (synopsis label appears to be bottom left justified), likely due to a constraints error.
+04/15/19 Fixed spacing error. Application meets basic & bonus requirements for part 1.
