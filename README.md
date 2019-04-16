@@ -22,9 +22,9 @@ Flix is an application that allows users to browse movies currently playing in t
 
 
 ### Notes
-04/06/19 Completed basic requirements.
-04/10/19 Attempted autolayout, added a far more eye pleasing loading screen.
-04/11/19 Changed color scheme from white / black to black / white (black background).
-04/12/19 Finished autolayout partially on loading screen.
-04/14/19 Finished autolayout throughout the application. One spacing error remains (synopsis label appears to be bottom left justified), likely due to a constraints error.
-04/15/19 Fixed spacing error. Application meets basic & bonus requirements for part 1.
+- 04/06/19 Completed basic requirements.
+- 04/10/19 Attempted autolayout, added a far more eye pleasing loading screen.
+- 04/11/19 Changed color scheme from white / black to black / white (black background).
+- 04/12/19 Finished autolayout partially on loading screen.
+- 04/14/19 Finished autolayout throughout the application. One spacing error remains (synopsis label appears to be bottom left justified), likely due to a constraints error.
+- 04/15/19 Fixed spacing error. Application meets basic & bonus requirements for part 1.
