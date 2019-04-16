@@ -20,9 +20,6 @@ Flix is an application that allows users to browse movies currently playing in t
 #### Autolayout + Basic Function Demonstration
 <img src="http://g.recordit.co/eQnkPp1tHQ.gif" width=200><br>
 
-#### AutoLayout + Personal Device (iPad) *
-<img src="https://im.ezgif.com/tmp/ezgif-1-4d6b6c1efb7e.gif" width=250><br>
-* This version had an spacing error detailed in notes below.
 
 ### Notes
 04/06/19 Completed basic requirements.
