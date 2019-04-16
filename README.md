@@ -18,7 +18,7 @@ Flix is an application that allows users to browse movies currently playing in t
 
 
 #### Autolayout + Basic Function Demonstration
-<img src="http://g.recordit.co/eQnkPp1tHQ.gif" width=200><br>
+<img src="http://g.recordit.co/CIjPPArbCJ.gif" width=200><br>
 
 
 ### Notes
