@@ -21,9 +21,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="&quot;movie_theater.png&quot;" highlightedImage="&quot;movie_theater.png&quot;" translatesAutoresizingMaskIntoConstraints="NO" id="T7f-bY-xR5">
                                 <rect key="frame" x="-96" y="658" width="568" height="215"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTC-Ex-97s">
-                                <rect key="frame" x="0.0" y="144" width="375" height="102"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="101"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTC-Ex-97s">
+                                <rect key="frame" x="0.0" y="144" width="375" height="108"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="108"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
@@ -40,9 +40,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="T7f-bY-xR5" secondAttribute="bottom" constant="-61" id="3OC-Cx-JWv"/>
                             <constraint firstItem="ZPi-Vl-8u7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="3v8-cg-mbL"/>
                             <constraint firstItem="ZPi-Vl-8u7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6XD-Ot-U6D"/>
                             <constraint firstItem="MTC-Ex-97s" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AsY-bU-1sc"/>
+                            <constraint firstItem="T7f-bY-xR5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-96" id="Cyh-7x-hKY"/>
                             <constraint firstAttribute="trailing" secondItem="ZPi-Vl-8u7" secondAttribute="trailing" id="GMK-Kk-h98"/>
                             <constraint firstItem="T7f-bY-xR5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GTy-sV-gpq"/>
                             <constraint firstItem="ZPi-Vl-8u7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gzn-aT-ylO"/>
@@ -53,6 +55,7 @@
                             <constraint firstItem="ZPi-Vl-8u7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="cNc-MI-fz4"/>
                             <constraint firstItem="vNW-NR-rdk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ggZ-dy-1Hm"/>
                             <constraint firstItem="vNW-NR-rdk" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="l2P-6s-hyr"/>
+                            <constraint firstAttribute="trailing" secondItem="T7f-bY-xR5" secondAttribute="trailing" constant="-97" id="ogz-eZ-LrG"/>
                             <constraint firstItem="MTC-Ex-97s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="sLK-T6-D5S"/>
                             <constraint firstAttribute="trailing" secondItem="T7f-bY-xR5" secondAttribute="trailing" constant="-55" id="sc9-eg-Jpn"/>
                             <constraint firstAttribute="bottom" secondItem="T7f-bY-xR5" secondAttribute="bottom" constant="-61" id="vF3-h4-Vvg"/>

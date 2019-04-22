@@ -23,7 +23,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
         tableView.dataSource = self // necessary
         tableView.delegate = self // necessary
-        print("Hello")
 
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -39,8 +38,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
                 // right here, we want to update the tableview every time
                 self.tableView.reloadData() // this calls tableView functions...
-
-                print(dataDictionary)
                 // TODO: Get the array of movies
                 // TODO: Store the movies in a property to use elsewhere
                 // TODO: Reload your table view data
@@ -77,14 +74,22 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // for this particular row, gimme the cell --> is what it is saying
     }
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
+        // sender is the cell that was tapped on
+        // Find selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for:cell)!
+        
+        // Movie can be found in the movies dictionary
+        let movie = movies[indexPath.row]
+
+        
         // Pass the selected object to the new view controller.
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
 
 }
